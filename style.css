@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #edeff0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  max-width: 960px;
+  margin: 85px auto; 
+  gap:30px;
+}
+
+.card:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.card:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.card:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.card:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.card:nth-child(5) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  position: relative;
+  box-shadow: 0px 1px 1px 0px #c6ccd2;
+}
+
+.cardimg img {
+  display: block;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+#activeCard {
+  background-color: #000;
+}
+
+#activeImg {
+  opacity: 0.6;
+}
+
+.cardimg p {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  z-index: 999;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.fas {
+  margin-right: 5px;
+  width: 15px;
+  height: 14px;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+}
+
+.caption p {
+  color: #384047;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.user {
+  border-top: 1px solid #edeff0;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  height: 60px;
+}
+
+.user img {
+  width: 30px;
+  height: 31px;
+  margin-right: 10px;
+  display: block
+}
+
+.user p {
+  font-size: 12px;
+  margin: 0;
+}
+
+#name {
+  color: #384047;
+}
+
+#date {
+  color: #8d9aa5;
+}
